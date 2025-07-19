@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bienvenida</title>
+  <link rel="stylesheet" href="estilos/estilos_menu.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Bienvenido/a</h1>
+    <p id="nombre"></p>
+    <p id="email"></p>
+    <img id="foto" alt="Foto de perfil" />
+
+    <div class="menu">
+      <button onclick="abrirVentana('xml.html')">XML</button>
+      <button onclick="abrirVentana('json.html')">JSON</button>
+      <button onclick="abrirVentana('consulta.html')">Consultas DNI - RUC</button>
+    </div>
+  </div>
+
+  <script>
+    // Recuperamos los datos del localStorage
+    const nombre = localStorage.getItem("nombre");
+    const email = localStorage.getItem("email");
+    const foto = localStorage.getItem("foto");
+
+    // Mostramos los datos en la página
+    document.getElementById("nombre").innerText = "Nombre: " + nombre;
+    document.getElementById("email").innerText = "Correo: " + email;
+    document.getElementById("foto").src = foto;
+
+    // Función para abrir nuevas ventanas
+    function abrirVentana(pagina) {
+  window.location.href = pagina;
+}
+  </script>
+</body>
+</html>

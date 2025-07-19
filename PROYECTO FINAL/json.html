@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Json
+    </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <div class="padre">
+        <h1 id="institucion"></h1>
+        <h2 id="practica"></h2>
+        <h2 id="alumno"></h2>
+        <h2 id="unidad"> </h2>
+    </div>
+
+    <table border="1">
+        <p>ALUMNOS </p>
+        <thead>
+            <tr>
+                <th>DNI</th>
+                <th>Nombre</th>
+                 <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-estudiantes">
+        </tbody>
+    </table>
+    
+  <table border="1">
+     <p>CURSOS </p>
+        <thead>
+            <tr>
+            <th>ID_CURSO</th>
+                <th>NOMBRE_CURSO</th>
+                 <th>N_HORAS</th>
+              
+            </tr>
+        </thead>
+        <tbody id="tabla-cursos">
+        </tbody>
+    </table>
+     
+  <table border="1">
+     <p>DOCENTES</p>
+        <thead>
+            <tr>
+                <th>DNI</th>
+                <th>NOMBRE</th>
+                 <th>APELLIDO </th>
+                <th>CURSO</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-docentes">
+        </tbody>
+    </table>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/app1.js"></script>
+</body>
+</html>

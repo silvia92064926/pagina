@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de DNI y RUC</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta de Datos por DNI</h1>
+    
+    <div class="form-section">
+      <label for="dni">DNI:</label>
+      <input type="text" id="dni" placeholder="Ingrese DNI" maxlength="8">
+      <button onclick="consultarDni()">Consultar DNI</button>
+      <div id="resultadoDNI" class="resultado"></div>
+    </div>
+
+    <hr>
+
+    <h1>Consulta de Datos por RUC</h1>
+
+    <div class="form-section">
+      <label for="ruc">RUC:</label>
+      <input type="text" id="ruc" placeholder="Ingrese número de RUC" maxlength="11">
+      <button onclick="consultarRUC()">Consultar RUC</button>
+      <div id="resultadoRUC" class="resultado"></div>
+    </div>
+  </div>
+
+  <script src="script/dni.js"></script>
+  <script src="script/ruc.js"></script>
+</body>
+</html>
