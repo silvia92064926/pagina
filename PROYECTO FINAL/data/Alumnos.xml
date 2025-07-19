@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<alumno>
+		<dni>12345678</dni>
+		<nombre>MARIA</nombre>
+		<apellido>PEREZ</apellido>
+		<edad>18</edad>
+	</alumno>
+	<alumno>
+		<dni>87654321</dni>
+		<nombre>LIZ</nombre>
+		<apellido>MENDOZA</apellido>
+		<edad>20</edad>
+	</alumno>
+	<alumno>
+		<dni>84756213</dni>
+		<nombre>TALIA</nombre>
+		<apellido>MEDINA</apellido>
+		<edad>19</edad>
+	</alumno>
+</alumnos>

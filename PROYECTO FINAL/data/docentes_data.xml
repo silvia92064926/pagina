@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<docentes>
+   <docente>
+      <dni>12345678</dni>
+      <nombre>JUAN</nombre>
+      <curso>BASE DE DATOS</curso>
+   </docente>
+   <docente>
+      <dni>12345876</dni>
+      <nombre>ROBERTH</nombre>
+      <curso>APLICACIONES WEB</curso>
+   </docente>
+   <docente>
+      <dni>32564789</dni>
+      <nombre>CARLOS</nombre>
+      <curso>MANTENIMIENTO</curso>
+   </docente>
+  
+</docentes>

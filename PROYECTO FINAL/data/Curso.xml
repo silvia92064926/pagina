@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<curso>
+		<id_curso>1</id_curso>
+		<nombre_curso>BASE DE DATOS</nombre_curso>
+		<n_horas>4</n_horas>
+	</curso>
+	<curso>
+		<id_curso>2</id_curso>
+		<nombre_curso>APLICACIONES WEB</nombre_curso>
+		<n_horas>6</n_horas>
+	</curso>
+	<curso>
+		<id_curso>3</id_curso>
+		<nombre_curso>MANTENIMIENTO</nombre_curso>
+		<n_horas>2</n_horas>
+	</curso>
+</cursos>
